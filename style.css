@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(back.png);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#card{
+    /*width:90%;*/
+    max-width: 390px;
+    height: 480px;
+    color: rgb(242, 235, 235);
+    text-align: center;
+    padding: 50px 35px;
+    padding-top: 40px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.1) ;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+}
+#card img{
+    width: 170px;
+    border-radius: 50%;
+
+}
+#card img:hover{
+    opacity: 0.5;
+}
+#card h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 18px;
+}
+#card p{
+margin-top: 3px;
+font-size: 16px;
+}
+#link{
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+    gap: 10px;
+}
+#link img{
+    width: 37px;
+    margin: 10px 5px;
+    border-radius: 50%;
+    transition: background-color 0.5s;
+}
+#link img:hover{
+    background-color: #ff01cf;
+    opacity: 0.5;
+}
+#button{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #fff;
+    color: #ff01cf;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 20px 10px;
+    margin-top: 14px;
+    font-family: "playfair display";
+}
+#button:hover{
+    background-color: #fc58de;
+    color: #fff;
+}
